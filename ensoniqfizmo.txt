@@ -42,6 +42,70 @@ MAXRATE NULL
 # PC must be between 1...128
 # MSB/LSB must be between 0...127
 [PC]
+1 MovieLife
+2 DelArpLayers
+3 BassNLead
+4 DkPad
+5 PhasestepVelSwt
+6 AnaStrngPad
+7 EdenPad
+8 Gargantuan
+9 PercolatorSplt
+10 ChimeHorn
+11 TriggerSplit
+12 BellyBass
+13 MultiBass1
+14 ChainsawLead
+15 PhizZplit
+16 SandStorm
+17 RhythymPadSplit
+18 SharpPad
+19 ArpPercs
+20 TwinkleArp
+21 EpPad
+22 RandomArps
+23 4Leads
+24 CCRhythymLead
+25 SHs
+26 PhizClavZplit
+27 SaturnDance
+28 HornFroggStab
+29 StringBassSplt
+30 BellBassSplt
+31 DanceSelects
+32 GlappinVelSwitch
+33 RaysInterrupt
+34 AtomicSplashDwn
+35 BigPad
+36 Bellzigger
+37 4Pads3
+38 MotionPad
+39 RezOPad
+40 AnaArpSelects
+41 ArpLayer
+42 ArpSplit
+43 HiPassArps
+44 ArpPad1
+45 OutThereSplit
+46 NorthHuntPad
+47 HornPulsaPad
+48 LeadMeToIt
+49 IOUEtc
+50 TrncBellSplt
+51 YesZapStab
+52 RichVelSplt
+53 SandSoftPad
+54 CrystalSplit
+55 QMeNoise
+56 JimsInterrupt
+57 Organs
+58 4Analogs
+59 TransPulsSplt
+60 CozmicPad
+61 WarpBass
+62 VocoderGruv
+63 DrumFun
+64 TemplatePreset
 [/PC]
 
 
@@ -49,6 +113,16 @@ MAXRATE NULL
 # Syntax: CC_NUMBER NAME or CC_NUMBER:DEFAULT=xx NAME
 # DEFAULT_VALUE must be a valid number between 0 and 127
 [CC]
+0 BankSelect
+1 ModWheel
+2 BreathCtrl
+5 GlideTime
+7 Volume
+8 Balance
+10 Pan
+11 Expression
+12 FxCtrl1
+13 FxCtrl2
 [/CC]
 
 # CC Pair
