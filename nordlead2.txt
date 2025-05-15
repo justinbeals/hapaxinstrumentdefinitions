@@ -1,10 +1,10 @@
 VERSION 1 # Currently, this should only be 1.
 
 # Supports all alphanumeric ASCII, and ' ', '_', '-', '+' - can also be NULL
-TRACKNAME NULL
+TRACKNAME Nord Lead 2
 
 # Can be POLY, DRUM, MPE, or NULL
-TYPE NULL
+TYPE POLY
 
 # Can be A, B, C, D, USBD, USBH, CVGx (x between 1&4), CVx, Gx, or NULL
 OUTPORT NULL
@@ -16,7 +16,7 @@ OUTCHAN NULL
 INPORT NULL
 
 # Can be x (between 1-16), ALL, or NULL. This definition will be ignored if INPORT is NONE, ALLACTIVE or CVG
-INCHAN NULL
+INCHAN ALL
 
 # This defines the default 'MAX RATE' for automation lanes.
 # Can be NULL, 192, 96, 64, 48, 32, 24, 16, 12, 8, 6, 4, 3, 2, 1
@@ -42,13 +42,65 @@ MAXRATE NULL
 # PC must be between 1...128
 # MSB/LSB must be between 0...127
 [PC]
+0 Sawbrass
+1 VelocityStrings
+2 ResonancePad
+3 HardStringPad
+4 ResonanceFadePad
+5 PortamentoQuints
+6 AFifthPad
+7 PulsePadFM
+8 WeatherBass
+9 LeadSawSolo
+10 SoftSawLead
 [/PC]
-
 
 # CC
 # Syntax: CC_NUMBER NAME or CC_NUMBER:DEFAULT=xx NAME
 # DEFAULT_VALUE must be a valid number between 0 and 127
 [CC]
+7 Gain
+17 OctShift
+18 ModWheelDest
+16 Unison
+15 PolLegMon
+65 PortAuto
+5 PortTime
+19 LFO1Rate
+20 LFO1Wave
+21 LFO1Dest
+22 LFO1Amt
+23 LFO2RateArpRate
+24 LFO2DstArpMode
+25 LFO2AmtArpRange
+26 ModEnvAtk
+27 ModEnvDcy
+28 ModEnvDst
+29 ModEnvAmt
+30 Osc1Wave
+31 Osc2Wave
+78 Osc2Semi
+33 Osc2Fine
+70 OscFmDepth
+34 Osc2KeyTrk
+79 OscPulseWidth
+35 OscSync
+8 OscMix
+73 AmpEnvAtk
+36 AmpEnvDcy
+37 AmpEnvSus
+72 AmpEnvRel
+38 FltEnvAtk
+39 FltEnvDcy
+40 FltEnvSus
+41 FltEnvRel
+44 FltMode
+74 FltCut
+42 FltRes
+43 FltEnvAmt
+45 FltVel
+46 FltKeyTrk
+80 FltDist
 [/CC]
 
 # CC Pair
