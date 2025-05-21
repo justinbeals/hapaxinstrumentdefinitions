@@ -7,10 +7,10 @@ TRACKNAME Nord Lead 2
 TYPE POLY
 
 # Can be A, B, C, D, USBD, USBH, CVGx (x between 1&4), CVx, Gx, or NULL
-OUTPORT NULL
+OUTPORT USBH
 
 # Can be x (between 1-16), or NULL -- this is ignored if output port is not MIDI
-OUTCHAN NULL
+OUTCHAN 11-14
 
 # Can be NONE, ALLACTIVE, A, B, USBH, USBD, CVG, or NULL
 INPORT NULL
