@@ -7,13 +7,13 @@ TRACKNAME Nord Lead 2
 TYPE POLY
 
 # Can be A, B, C, D, USBD, USBH, CVGx (x between 1&4), CVx, Gx, or NULL
-OUTPORT USBH
+OUTPORT NULL
 
 # Can be x (between 1-16), or NULL -- this is ignored if output port is not MIDI
-OUTCHAN 11-14
+OUTCHAN NULL
 
 # Can be NONE, ALLACTIVE, A, B, USBH, USBD, CVG, or NULL
-INPORT USBH
+INPORT NULL
 
 # Can be x (between 1-16), ALL, or NULL. This definition will be ignored if INPORT is NONE, ALLACTIVE or CVG
 INCHAN ALL
@@ -53,6 +53,94 @@ MAXRATE NULL
 8 WeatherBass
 9 LeadSawSolo
 10 SoftSawLead
+11 Zyntar
+12 ArpDown
+13 FmMetallic
+14 AttackBass
+15 SawMono
+16 Osc2Mod
+17 Guitar1
+18 Violin
+19 SourceBass
+20 PercLead
+21 FmClavinet
+22 SoftStrings
+23 SHTechno
+24 ResSweep
+25 Phaser
+26 BritePad
+27 AnalogGrand
+28 ElecPiano1
+29 RandArp
+30 Clarinet
+31 Didjeridu
+32 Sax
+33 StringPad
+34 SoloPulse
+35 SpacePad
+36 SampleHold
+37 SawLegatoSolo
+38 EchoSound
+39 PulseSolo
+40 SoftStrings2
+41 Majesty
+42 GlassBrass
+43 Gimme5
+44 FluteChoir
+45 BrassComp
+46 SyncSweep
+47 SynthStrings
+48 Trumpets
+49 Duke
+50 DirtyFm
+51 SpaceClavinet
+52 ResonantSaw
+53 FmLead
+54 TalkingClavinet
+55 SawRing
+56 Eraser
+57 TakeTheFifth
+58 EchoPad
+59 Yeow
+60 Syncher
+61 LowBass
+62 WaterBass
+63 PickBass
+64 FmMorphBass
+65 Acid1
+66 Acid2
+67 LegatoBass
+68 BlackHole
+69 Sub
+70 DB
+71 WideBody
+72 Fluff
+73 SteelDrums
+74 WurzPiano
+75 MyClav
+76 IBow
+77 TackClav
+78 SpanEyes
+79 Floote
+80 Hamplafon
+81 Thumpinet
+82 BellBar
+83 Flageolettes
+84 Rotator
+85 Tuba
+86 Trumpet
+87 EnglishHorn
+88 MetalFlute
+89 Voice
+90 FmHorn
+91 Harpsichort
+92 ElectricPiano2
+93 Musing
+94 Chang
+95 Ravi
+96 GuessI
+97 Tubular
+98 Waterhall
 [/PC]
 
 # CC
