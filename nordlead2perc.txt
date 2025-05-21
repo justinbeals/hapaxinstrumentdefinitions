@@ -1,7 +1,7 @@
 VERSION 1 # Currently, this should only be 1.
 
 # Supports all alphanumeric ASCII, and ' ', '_', '-', '+' - can also be NULL
-TRACKNAME Nord Lead 2
+TRACKNAME Nord Lead 2 Percussion
 
 # Can be POLY, DRUM, MPE, or NULL
 TYPE DRUM
@@ -31,6 +31,14 @@ MAXRATE NULL
 # NAME supports all alphanumeric ASCII, and ' ', '_', '-', '+' - can also be NULL
 # Please note this section will be discarded for tracks which are not DRUM tracks
 [DRUMLANES]
+8:NULL:NULL:77 CB
+7:NULL:NULL:72 CR
+6:NULL:NULL:65 HT
+5:NULL:NULL:60 MT
+4:NULL:NULL:53 LT
+3:NULL:NULL:48 HH
+2:NULL:NULL:41 SD
+1:NULL:NULL:36 BD
 [/DRUMLANES]
 
 
@@ -42,6 +50,16 @@ MAXRATE NULL
 # PC must be between 1...128
 # MSB/LSB must be between 0...127
 [PC]
+109 Techno
+108 Submariner
+107 Latin 3
+106 Asia 1
+105 909
+104 Jazz
+103 808
+102 Latin 2
+101 Latin 1
+100 Acoustic
 [/PC]
 
 # CC
