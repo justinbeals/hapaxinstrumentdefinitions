@@ -1,7 +1,7 @@
 VERSION 1 # Currently, this should only be 1.
 
 # Supports all alphanumeric ASCII, and ' ', '_', '-', '+' - can also be NULL
-TRACKNAME MC-505 Rhythm
+TRACKNAME MC505 Rhythm
 
 # Can be POLY, DRUM, MPE, or NULL
 TYPE NULL
