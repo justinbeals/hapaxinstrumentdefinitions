@@ -69,6 +69,8 @@ MAXRATE NULL
 24:81:0 Industrial
 25:81:0 Ethnic
 26:81:0 Reverse
+1:85:0 UserBank
+1:86:0 CardBank
 [/PC]
 
 
