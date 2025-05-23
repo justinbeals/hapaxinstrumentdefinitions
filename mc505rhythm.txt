@@ -43,32 +43,32 @@ MAXRATE NULL
 # MSB/LSB must be between 0...127
 # MC-505 Rhythym Presets potential note numbers are 35-98
 [PC]
-0:81:0 TR-909
-1:81:0 TR-808
-2:81:0 TR-606
-3:81:0 CR78nCheaps
-4:81:0 Techno1
-5:81:0 Techno2
-6:81:0 Techno3
-7:81:0 Hardcore
-8:81:0 Ambient
-9:81:0 House1
-10:81:0 House2
-11:81:0 Jungle
-12:81:0 DrumNBass1
-13:81:0 DrumNBass2
-14:81:0 HipHop1
-15:81:0 HipHop2
-16:81:0 Funk
-17:81:0 Electro
-18:81:0 Jazz
-19:81:0 Brush
-20:81:0 Disco
-21:81:0 Raga
-22:81:0 Rock
-23:81:0 Industrial
-24:81:0 Ethnic
-25:81:0 Reverse
+1:81:0 TR-909
+2:81:0 TR-808
+3:81:0 TR-606
+4:81:0 CR78nCheaps
+5:81:0 Techno1
+6:81:0 Techno2
+7:81:0 Techno3
+8:81:0 Hardcore
+9:81:0 Ambient
+10:81:0 House1
+11:81:0 House2
+12:81:0 Jungle
+13:81:0 DrumNBass1
+14:81:0 DrumNBass2
+15:81:0 HipHop1
+16:81:0 HipHop2
+17:81:0 Funk
+18:81:0 Electro
+19:81:0 Jazz
+20:81:0 Brush
+21:81:0 Disco
+22:81:0 Raga
+23:81:0 Rock
+24:81:0 Industrial
+25:81:0 Ethnic
+26:81:0 Reverse
 [/PC]
 
 
