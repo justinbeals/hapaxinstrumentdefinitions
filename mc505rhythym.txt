@@ -1,7 +1,7 @@
 VERSION 1 # Currently, this should only be 1.
 
 # Supports all alphanumeric ASCII, and ' ', '_', '-', '+' - can also be NULL
-TRACKNAME NULL
+TRACKNAME MC-505 Rhythym
 
 # Can be POLY, DRUM, MPE, or NULL
 TYPE NULL
@@ -10,13 +10,15 @@ TYPE NULL
 OUTPORT NULL
 
 # Can be x (between 1-16), or NULL -- this is ignored if output port is not MIDI
-OUTCHAN NULL
+# MC-505 listens to channel 10 only and cannot be modified.
+OUTCHAN 10
 
 # Can be NONE, ALLACTIVE, A, B, USBH, USBD, CVG, or NULL
 INPORT NULL
 
 # Can be x (between 1-16), ALL, or NULL. This definition will be ignored if INPORT is NONE, ALLACTIVE or CVG
-INCHAN NULL
+# MC-505 listens to channel 10 only and cannot be modified.
+INCHAN 10
 
 # This defines the default 'MAX RATE' for automation lanes.
 # Can be NULL, 192, 96, 64, 48, 32, 24, 16, 12, 8, 6, 4, 3, 2, 1
@@ -42,13 +44,76 @@ MAXRATE NULL
 # PC must be between 1...128
 # MSB/LSB must be between 0...127
 [PC]
+#Rhythym Presets potential note numbers are 35-98
+0:81:0 TR-909
+1:81:0 TR-808
+2:81:0 TR-606
+3:81:0 CR78nCheaps
+4:81:0 Techno1
+5:81:0 Techno2
+6:81:0 Techno3
+7:81:0 Hardcore
+8:81:0 Ambient
+9:81:0 House1
+10:81:0 House2
+11:81:0 Jungle
+12:81:0 DrumNBass1
+13:81:0 DrumNBass2
+14:81:0 HipHop1
+15:81:0 HipHop2
+16:81:0 Funk
+17:81:0 Electro
+18:81:0 Jazz
+19:81:0 Brush
+20:81:0 Disco
+21:81:0 Raga
+22:81:0 Rock
+23:81:0 Industrial
+24:81:0 Ethnic
+25:81:0 Reverse
 [/PC]
 
 
 # CC
 # Syntax: CC_NUMBER NAME or CC_NUMBER:DEFAULT=xx NAME
 # DEFAULT_VALUE must be a valid number between 0 and 127
+# MC-505 Contains two modes for CC. A hybrid Sysex/CC mode and a CC mode.
+# You must 'Edit TxRx Mode' to MODE2 for CC not Sysex Messages
+# Hapax doesn't support Sysex messages at this time
 [CC]
+7 Level
+10:DEFAULT=64 Pan
+85:DEFAULT=64 KeyShift 
+91 Reverb
+94 Delay
+86 EfxOut
+21:DEFAULT=64 CoarseTune
+77:DEFAULT=64 FineTune
+34:DEFAULT=0  FilterType
+74 Cutoff
+71 Resonance
+36 ToneLevel
+35 TonePan
+37:DEFAULT=0 ToneRndPan
+73 AmpAttack
+75 AmpDecay
+31 AmpSustain
+72 AmpRelease
+80:DEFAULT=64 LfoAmpDepth
+25:DEFAULT=64 PitDepth
+26 PitAttack
+27 PitDecay
+39:DEFAULT=64 PitSustain
+40 PitRelease
+18:DEFAULT=64 LfoPitDepth
+81:DEFAULT=64 FiltDepth
+82 FiltAttack
+83 FiltDecay
+28 FiltSustain
+29 FiltRelease
+19:DEFAULT=64 LfoFiltDepth
+15 LfoWaveform
+16 LfoRate
 [/CC]
 
 # CC Pair
@@ -104,4 +169,5 @@ MAXRATE NULL
 
 # This section will be readable from Hapax.
 [COMMENT]
+This instrument definition is for Roland MC-505 Rhythym Tracks. You can run this as a POLY or DRUM. There are almost 60+ sounds in each program so if working in Drum Mode for this you will likely want to set the drum lanes. Or you can use POLY for all the sounds.
 [/COMMENT]
