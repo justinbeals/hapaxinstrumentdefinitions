@@ -1,7 +1,7 @@
 VERSION 1 # Currently, this should only be 1.
 
 # Supports all alphanumeric ASCII, and ' ', '_', '-', '+' - can also be NULL
-TRACKNAME MC-505 Rhythym
+TRACKNAME MC-505 Rhythm
 
 # Can be POLY, DRUM, MPE, or NULL
 TYPE NULL
@@ -10,15 +10,13 @@ TYPE NULL
 OUTPORT NULL
 
 # Can be x (between 1-16), or NULL -- this is ignored if output port is not MIDI
-# MC-505 listens to channel 10 only and cannot be modified.
-OUTCHAN 10
+OUTCHAN 10 
 
 # Can be NONE, ALLACTIVE, A, B, USBH, USBD, CVG, or NULL
 INPORT NULL
 
 # Can be x (between 1-16), ALL, or NULL. This definition will be ignored if INPORT is NONE, ALLACTIVE or CVG
-# MC-505 listens to channel 10 only and cannot be modified.
-INCHAN 10
+INCHAN 10 # MC-505 Rhythm part listens to channel 10 only and cannot be modified.
 
 # This defines the default 'MAX RATE' for automation lanes.
 # Can be NULL, 192, 96, 64, 48, 32, 24, 16, 12, 8, 6, 4, 3, 2, 1
@@ -44,7 +42,7 @@ MAXRATE NULL
 # PC must be between 1...128
 # MSB/LSB must be between 0...127
 [PC]
-#Rhythym Presets potential note numbers are 35-98
+# Rhythym Presets potential note numbers are 35-98
 0:81:0 TR-909
 1:81:0 TR-808
 2:81:0 TR-606
@@ -169,5 +167,5 @@ MAXRATE NULL
 
 # This section will be readable from Hapax.
 [COMMENT]
-This instrument definition is for Roland MC-505 Rhythym Tracks. You can run this as a POLY or DRUM. There are almost 60+ sounds in each program so if working in Drum Mode for this you will likely want to set the drum lanes. Or you can use POLY for all the sounds.
+Rhythym Presets potential note numbers are 35-98.
 [/COMMENT]
