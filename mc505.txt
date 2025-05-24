@@ -4,7 +4,7 @@ VERSION 1 # Currently, this should only be 1.
 TRACKNAME MC505
 
 # Can be POLY, DRUM, MPE, or NULL
-TYPE NULL
+TYPE POLY
 
 # Can be A, B, C, D, USBD, USBH, CVGx (x between 1&4), CVx, Gx, or NULL
 OUTPORT NULL
