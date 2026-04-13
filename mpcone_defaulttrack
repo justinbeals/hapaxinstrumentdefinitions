@@ -63,6 +63,7 @@ MAXRATE NULL
 5:0 Send2
 6:0 Send3
 7:0 Send4
+8:64 GlobalSemiTune
 [/CC_PAIR]
 
 # NRPN
