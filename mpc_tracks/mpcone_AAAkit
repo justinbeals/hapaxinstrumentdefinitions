@@ -57,7 +57,22 @@ MAXRATE NULL
 # Syntax: CC_NUMBER NAME or CC_NUMBER:DEFAULT=xx NAME
 # DEFAULT_VALUE must be a valid number between 0 and 127
 [CC]
-
+1 Volume
+2 Pan
+3 Mute
+4 Send1
+5 Send2
+6 Send3
+7 Send5
+8 GlobalSemiTune
+# These are specific to AAA Kit
+12 lpfEnagled
+13 FilterMode
+14 FilterType
+15 SaturationType
+16 CutoffFrequency
+17 Resonance
+18 lpfOutputGain
 [/CC]
 
 # CC Pair
