@@ -49,12 +49,28 @@ MAXRATE NULL
 # Syntax: CC_NUMBER NAME or CC_NUMBER:DEFAULT=xx NAME
 # DEFAULT_VALUE must be a valid number between 0 and 127
 [CC]
+1 Volume
+2 Pan
+3 Mute
+4 Send1
+5 Send2
+6 Send3
+7 Send5
+8 GlobalSemiTune
 [/CC]
 
 # CC Pair
 # Syntax: CC_MSB:CC_LSB NAME or CC_MSB:CC_LSB:DEFAULT=xx NAME
 # DEFAULT_VALUE must be a valid number between 0 and 16383
 [CC_PAIR]
+1:90 Volume
+2:64 Pan
+3:127 Mute
+4:0 Send1
+5:0 Send2
+6:0 Send3
+7:0 Send4
+8:64 GlobalSemiTune
 [/CC_PAIR]
 
 # NRPN
