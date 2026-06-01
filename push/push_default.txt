@@ -49,21 +49,17 @@ MAXRATE NULL
 # Syntax: CC_NUMBER NAME or CC_NUMBER:DEFAULT=xx NAME
 # DEFAULT_VALUE must be a valid number between 0 and 127
 [CC]
-
+1:90 Volume
+2:64 Pan
+3:127 Mute
+4:0 Send1
+5:0 Send2
 [/CC]
 
 # CC Pair
 # Syntax: CC_MSB:CC_LSB NAME or CC_MSB:CC_LSB:DEFAULT=xx NAME
 # DEFAULT_VALUE must be a valid number between 0 and 16383
 [CC_PAIR]
-1:90 Volume
-2:64 Pan
-3:127 Mute
-4:0 Send1
-5:0 Send2
-6:0 Send3
-7:0 Send4
-8:64 GlobalSemiTune
 [/CC_PAIR]
 
 # NRPN
@@ -75,6 +71,7 @@ MAXRATE NULL
 # DEPTH can be 7 or 14
 # For NRPN: DEFAULT_VALUE must be a valid number, either between 0 and 127 (for 7 bit NRPNs) or between 0 and 16383 (for 14bit NRPNs)
 [NRPN]
+0:0:14 PUSH_BPM
 [/NRPN]
 
 
@@ -97,10 +94,10 @@ MAXRATE NULL
 [ASSIGN]
 1 CC:1 DEFAULT:90
 2 CC:2 DEFAULT:64
+3 CC:3 DEFAULT:127
+4 CC:4 DEFAULT:0
 5 CC:5 DEFAULT:0
 6 CC:6 DEFAULT:0
-7 CC:7 DEFAULT:0
-8 CC:8 DEFAULT:0
 [/ASSIGN]
 
 
